@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ri_title" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b3e37d9d-59bc-482f-af09-9787e08b6a82">
+	<parameter name="title_license_number" class="java.lang.String"/>
+	<parameter name="title_license_validity" class="java.sql.Date"/>
+	<parameter name="title_email_id" class="java.lang.String"/>
+	<parameter name="title_phone_no" class="java.lang.String"/>
+	<parameter name="title_land_mark" class="java.lang.String"/>
+	<parameter name="title_location" class="java.lang.String"/>
+	<parameter name="title_district" class="java.lang.String"/>
+	<parameter name="title_pincode" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="98" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="30" width="494" height="26" forecolor="#520807" uuid="d40e3c91-e8aa-4339-ae7f-ae3b433278b9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="Serif" size="20"/>
+				</textElement>
+				<text><![CDATA[Task Insurance Surveyors & Loss Assessors]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="56" width="494" height="19" uuid="47d7f709-7edf-4f61-ad61-908faf244d9a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Serif" size="14"/>
+				</textElement>
+				<text><![CDATA[Motor | Marine Cargo | Fire | Engg | Misc.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="30" y="74" width="494" height="15" forecolor="#142A78" uuid="b1c76c07-93a6-4e7b-a760-0d03c1845867">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Serif" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reg. Off: "+$P{title_location}+", "+$P{title_land_mark}+", "+$P{title_district}+" - "+$P{title_pincode}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="0" width="60" height="14" forecolor="#142A78" uuid="6d76c6a2-4b79-48b8-b12d-18b4f29145ba">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="11"/>
+				</textElement>
+				<text><![CDATA[ License No :]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="60" y="0" width="123" height="14" forecolor="#142A78" uuid="bf3dd099-a83b-4d47-8ed0-54bfc63b9265">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{title_license_number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="14" width="60" height="14" forecolor="#142A78" uuid="c7d322f5-689f-4408-a1a6-ef27f27e2a2e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="11"/>
+				</textElement>
+				<text><![CDATA[ Valid Upto : ]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="60" y="14" width="123" height="14" forecolor="#142A78" uuid="35736fdc-6319-431e-a230-25d5da8efeee">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{title_license_validity} == null ? null : new java.text.SimpleDateFormat("dd-MM-yyyy").format($P{title_license_validity})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="373" y="0" width="57" height="14" forecolor="#142A78" uuid="51a7c097-3cd1-488b-a21a-6ae69975366d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Serif" size="11"/>
+				</textElement>
+				<text><![CDATA[Mob No. :]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="430" y="0" width="125" height="14" forecolor="#142A78" uuid="fc178cfa-fea9-4750-8ae3-ecad43500270">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Serif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{title_phone_no}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="430" y="14" width="125" height="14" forecolor="#142A78" uuid="a8202876-5543-4fed-a8ff-727737e35ca0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Serif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{title_email_id}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="373" y="14" width="57" height="14" forecolor="#142A78" uuid="366f58b0-276d-47da-bd88-e665867b3ca0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right">
+					<font fontName="Serif" size="11"/>
+				</textElement>
+				<text><![CDATA[Email :]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="92" width="555" height="1" uuid="dbe6fd21-704f-4351-8227-7cc8e8bf33ef">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+		</band>
+	</title>
+</jasperReport>

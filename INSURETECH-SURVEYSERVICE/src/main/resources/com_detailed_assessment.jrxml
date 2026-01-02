@@ -1,0 +1,3403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="detailed_assessment" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0022cd5f-11eb-4b37-8b75-b3ac22854be9">
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TH" mode="Opaque" backcolor="#87CEFA">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_CH" mode="Opaque" backcolor="#BFE7FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Crosstab_CH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Crosstab_CG" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Crosstab_CT" mode="Opaque" backcolor="#005FB3">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Crosstab_CD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 7_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Dataset1" uuid="48f5ccee-40b8-45bf-ae2a-1be0e7601db3">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="parts_name" class="java.lang.String"/>
+		<field name="type" class="java.lang.String"/>
+		<field name="bill_sr" class="java.lang.String"/>
+		<field name="remarks" class="java.lang.String"/>
+		<field name="estimated" class="java.math.BigDecimal"/>
+		<field name="gst" class="java.math.BigDecimal"/>
+		<field name="allowed" class="java.math.BigDecimal"/>
+		<field name="loabor_estimated" class="java.math.BigDecimal"/>
+		<field name="allowed_labourt" class="java.math.BigDecimal"/>
+	</subDataset>
+	<subDataset name="Dataset2" uuid="bc7fa2e9-5ee0-459c-a7f5-93f5d228e993">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="parts_name" class="java.lang.String"/>
+		<field name="paint_estimate" class="java.math.BigDecimal"/>
+		<field name="allowed" class="java.math.BigDecimal"/>
+		<field name="paint25part" class="java.math.BigDecimal"/>
+		<field name="paint75labour" class="java.math.BigDecimal"/>
+		<field name="lab_gst" class="java.math.BigDecimal"/>
+	</subDataset>
+	<subDataset name="IMTDataset" uuid="67eaf24f-796f-4f8c-8ad8-bc127b5638c5">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="parts_name" class="java.lang.String"/>
+		<field name="type" class="java.lang.String"/>
+		<field name="bill_sr" class="java.lang.String"/>
+		<field name="remarks" class="java.lang.String"/>
+		<field name="estimated" class="java.math.BigDecimal"/>
+		<field name="gst" class="java.math.BigDecimal"/>
+		<field name="allowed" class="java.math.BigDecimal"/>
+		<field name="assessed" class="java.math.BigDecimal"/>
+		<field name="ex_allowed" class="java.math.BigDecimal"/>
+	</subDataset>
+	<subDataset name="CabinDataset" uuid="250500a1-8438-421d-bdb9-7d8b512040bd">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="assembly_name" class="java.lang.String"/>
+		<field name="part_type" class="java.lang.Character"/>
+		<field name="bill_sr" class="java.lang.String"/>
+		<field name="remarks" class="java.lang.String"/>
+		<field name="estimated" class="java.math.BigDecimal"/>
+		<field name="gst" class="java.lang.String"/>
+		<field name="allowed" class="java.math.BigDecimal"/>
+	</subDataset>
+	<subDataset name="GSTDataset" uuid="f1699bf9-a9f6-428b-b065-9b34b0e0941d">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<subDataset name="LoadBodyDataset" uuid="aed53a8a-bfe5-4fa0-8baa-0732d02f70d5">
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="assembly_name" class="java.lang.String"/>
+		<field name="part_type" class="java.lang.Character"/>
+		<field name="bill_sr" class="java.lang.String"/>
+		<field name="remarks" class="java.lang.String"/>
+		<field name="estimated" class="java.math.BigDecimal"/>
+		<field name="gst" class="java.lang.String"/>
+		<field name="allowed" class="java.math.BigDecimal"/>
+	</subDataset>
+	<parameter name="tablePartDatasource" class="net.sf.jasperreports.engine.JRDataSource"/>
+	<parameter name="tableLabourDatasource" class="net.sf.jasperreports.engine.JRDataSource"/>
+	<parameter name="tableImtDatasource" class="net.sf.jasperreports.engine.JRDataSource"/>
+	<parameter name="regBefore" class="java.lang.String"/>
+	<parameter name="sign" class="java.io.InputStream"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="reference_no" class="java.lang.String"/>
+	<field name="asset" class="java.lang.String"/>
+	<field name="paint_labour75actual_allowed" class="java.math.BigDecimal"/>
+	<field name="paint_labour75gst" class="java.math.BigDecimal"/>
+	<field name="total_gst" class="java.math.BigDecimal"/>
+	<field name="total_allowed_paint" class="java.math.BigDecimal"/>
+	<field name="total_allowed_paint_gst" class="java.math.BigDecimal"/>
+	<field name="dep50percent" class="java.lang.String"/>
+	<field name="total_gst_paint25part" class="java.math.BigDecimal"/>
+	<field name="total_ex_dep" class="java.math.BigDecimal"/>
+	<field name="total_ex_tax" class="java.math.BigDecimal"/>
+	<field name="date_of_loss" class="java.sql.Timestamp"/>
+	<field name="dor" class="java.lang.String"/>
+	<field name="metal_dep" class="java.lang.String"/>
+	<field name="total_estimated" class="java.math.BigDecimal"/>
+	<field name="total_allowed_labourt" class="java.math.BigDecimal"/>
+	<field name="total_labour_gstt" class="java.math.BigDecimal"/>
+	<field name="gst_estimated" class="java.lang.String"/>
+	<field name="gst_repair" class="java.lang.String"/>
+	<field name="gst_replace" class="java.lang.String"/>
+	<field name="total_paint_estimate_gst" class="java.math.BigDecimal"/>
+	<field name="total_paint_estimate" class="java.math.BigDecimal"/>
+	<field name="nil_dep" class="java.lang.String"/>
+	<field name="gross_loss_amount" class="java.lang.String"/>
+	<field name="gross_loss_dep" class="java.lang.String"/>
+	<field name="gross_loss_gst" class="java.lang.String"/>
+	<field name="net_loss_value" class="java.lang.String"/>
+	<field name="salvage_charges" class="java.math.BigDecimal"/>
+	<field name="compulsory_clause" class="java.lang.String"/>
+	<field name="surveyor" class="java.lang.String"/>
+	<field name="full_name" class="java.lang.String"/>
+	<field name="current_status" class="java.lang.Integer"/>
+	<field name="total_allowed" class="java.math.BigDecimal"/>
+	<field name="total_assessed" class="java.math.BigDecimal"/>
+	<field name="total_ex_allowed" class="java.math.BigDecimal"/>
+	<field name="labour_estimated" class="java.math.BigDecimal"/>
+	<field name="labour_est_gst" class="java.math.BigDecimal"/>
+	<field name="paint_material25actual_allowed" class="java.math.BigDecimal"/>
+	<field name="towing_charges_final" class="java.math.BigDecimal"/>
+	<field name="imt23deduction" class="java.math.BigDecimal"/>
+	<field name="sub_total" class="java.math.BigDecimal"/>
+	<field name="average_clause" class="java.math.BigDecimal"/>
+	<field name="compulsory_excess" class="java.math.BigDecimal"/>
+	<field name="voluntary_imposed_excess" class="java.math.BigDecimal"/>
+	<field name="total_dep0percent" class="java.math.BigDecimal"/>
+	<field name="total_dep18percent" class="java.math.BigDecimal"/>
+	<field name="total_dep28percent" class="java.math.BigDecimal"/>
+	<field name="total_gst0percent" class="java.math.BigDecimal"/>
+	<field name="total_gst18percent" class="java.math.BigDecimal"/>
+	<field name="total_gst28percent" class="java.math.BigDecimal"/>
+	<field name="accidental_labour_actual_allowed" class="java.math.BigDecimal"/>
+	<field name="invoice_number" class="java.lang.String"/>
+	<field name="amount" class="java.math.BigDecimal"/>
+	<field name="issued_on" class="java.sql.Timestamp"/>
+	<field name="imt23Total" class="java.math.BigDecimal"/>
+	<field name="gross_loss_assesed_gross_allowed" class="java.math.BigDecimal"/>
+	<field name="net_loss_assessed" class="java.math.BigDecimal"/>
+	<field name="paint_material25depreciation" class="java.math.BigDecimal"/>
+	<field name="paint_material25gst" class="java.math.BigDecimal"/>
+	<field name="paint_material25assessed" class="java.math.BigDecimal"/>
+	<field name="paint_labour75depreciation" class="java.math.BigDecimal"/>
+	<field name="paint_labour75assessed" class="java.math.BigDecimal"/>
+	<field name="accidental_labour_depreciation" class="java.math.BigDecimal"/>
+	<field name="accidental_labourgst" class="java.math.BigDecimal"/>
+	<field name="accidental_labour_assessed" class="java.math.BigDecimal"/>
+	<field name="total_tax18percent" class="java.math.BigDecimal"/>
+	<field name="total_tax0percent" class="java.math.BigDecimal"/>
+	<field name="total_tax28percent" class="java.math.BigDecimal"/>
+	<field name="received_on" class="java.sql.Timestamp"/>
+	<pageHeader>
+		<band height="14">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="1" width="554" height="13" backcolor="#F0EDED" uuid="3237f28b-88b3-4e89-ab47-1802cd3d3122">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="2" width="34" height="11" uuid="e43aabca-0ca1-40dc-99e0-e470e14b3da9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ref No:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="41" y="2" width="128" height="11" uuid="22e906a0-4695-4a82-b883-5d56f599b32c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{reference_no}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="397" y="2" width="138" height="11" uuid="730534d3-27f9-47d2-a717-54b98a79a735">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{asset}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="680" splitType="Immediate">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="4" width="554" height="17" uuid="6ec50f56-852e-4189-964f-d8b6407bc937">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Serif" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{current_status}!=26?"PRELIMINARY ANNEXURE":"Annexure "]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="265" width="128" height="14" uuid="7d944f08-16c3-4333-af48-ad4e45c5e964">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PAINT ASSESSMENT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="105" width="110" height="13" uuid="3b156b31-d766-4bd7-abad-3401750bc7c6">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Registered Before : ]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="110" y="105" width="190" height="13" uuid="4659fe46-7c77-4026-bcf2-ca34670f1074">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{regBefore}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="300" y="105" width="128" height="13" uuid="887b0fe3-5dc7-435a-bc08-e94b6c4a23a2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Parts ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="105" width="104" height="13" uuid="d7f8e0a0-fd1e-4ef4-ac36-38188580d816">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Replace/Repair Labour]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement style="Table 1_CH" positionType="Float" x="0" y="120" width="554" height="60" uuid="5a31577b-be2b-42bc-b173-b03d0053f580">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" whenNoDataType="Blank">
+					<datasetRun subDataset="Dataset1" uuid="039fabd4-7428-491b-a107-d9c462af50c2">
+						<dataSourceExpression><![CDATA[$P{tablePartDatasource}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="20" uuid="99b5370a-a131-440e-8298-157c4538514f">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="20" height="30" backcolor="#BAB6B6" uuid="42f56182-795b-4a75-b996-6ac14787f23c"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Sr.]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="20" height="20" uuid="1d566175-d4c4-4be1-926a-74d80476964d"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="166" uuid="3631e5ae-42d7-44fc-afba-eae3f347911d">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="166" height="30" backcolor="#BAB6B6" uuid="2b9b213d-143a-48c9-b966-3f21bbde7a03"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Parts Name]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+							<textField>
+								<reportElement x="0" y="0" width="166" height="20" uuid="ee14c7e3-e1c7-4192-8c81-71a6ea8e1f31"/>
+								<textFieldExpression><![CDATA[" "+ $F{parts_name}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="26" uuid="5a907108-9bea-4b81-9822-7d55d075fde2">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="26" height="30" backcolor="#BAB6B6" uuid="122acf86-2fd5-44bb-ba50-f63c182f41a4"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Type]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<textField>
+								<reportElement x="0" y="0" width="26" height="20" uuid="1bc36849-e16f-43d9-99ad-4d0596a9ded4"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{type}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="30" uuid="f685e6ed-2661-4f0a-8c9d-213aa329e90a">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="30" height="30" backcolor="#BAB6B6" uuid="5062af75-3745-44cf-b8ac-46323f97225c"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Bill No]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="30" height="20" uuid="ca9d6a49-c66c-4477-8730-08c6354ce335"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{bill_sr}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="50" uuid="c226a9d0-6b04-4a16-b781-2947363d9980">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="50" height="30" backcolor="#BAB6B6" uuid="4c76d24c-c8eb-432c-a223-c58d0f360dab"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Remark]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="20" uuid="12131dc3-cc15-46d3-87e4-f4ceed626e48"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{remarks}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="60" uuid="b187ee12-c6af-46aa-a56c-63118c5ce862">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="60" height="30" backcolor="#BAB6B6" uuid="0132e9a1-dd32-4eca-8abd-e3a1a81016cd"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Estimated]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="60" height="20" uuid="b71a164c-14f0-4b03-9bc1-7c9401a6cd7b"/>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[$F{estimated}+" "]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="30" uuid="b99b21c7-d125-463f-9db9-5353d0645694">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column7"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="30" height="30" backcolor="#BAB6B6" uuid="e8c0e436-aa05-497c-a1ac-e4eb15584494"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[GST]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="30" height="20" uuid="f99e3b77-163c-49de-b89e-c95d5a07e828"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{gst}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="69" uuid="62f9be25-6cec-4465-924f-5868f054a1ca">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column8"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement mode="Opaque" x="0" y="0" width="69" height="30" backcolor="#BAB6B6" uuid="c09f77e9-0f29-4026-b92b-3ce565a60da5"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Allowed]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="69" height="20" uuid="e46fd166-93df-47bc-9b63-15310790e8bd"/>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[$F{allowed}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="51" uuid="721bc19b-b3c6-44db-9486-23adf5580b44">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column9"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="51" height="30" uuid="31d31c23-7593-4b3d-8190-56fc4a66ca53"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Estimated]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="51" height="20" uuid="92b32972-fe89-4503-90e0-a14ae32d2139"/>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[$F{loabor_estimated}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="52" uuid="88f7dfe4-3fed-415f-bf3e-c1e955ad7c66">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column10"/>
+						<jr:columnHeader style="Table_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="52" height="30" uuid="078f8256-cccb-4b65-87fd-f593bc500cc6"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Allowed]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="20">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="52" height="20" uuid="e13882f9-b015-4b3e-b5c2-29bd963d02f1"/>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[$F{allowed_labourt}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" mode="Opaque" x="0" y="182" width="554" height="72" backcolor="#F0EDED" uuid="5309a2c1-eba3-4394-8a87-9290a3358809">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="186" width="60" height="11" uuid="a0c1e425-b3eb-4f69-9b52-0ab20a4d6e02">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[# M-Metal @ ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="197" width="120" height="11" uuid="bc2a2750-1dae-4d6f-975d-86ac7d7327b5">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[# P- Plastic @ 50%]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="208" width="120" height="11" uuid="3feab574-aff0-4e86-b9f4-66ea843b7db5">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[# G- Glass @ 0%]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="230" width="60" height="11" uuid="52ec2025-0ab6-4539-8ac5-3f8fa9c15798">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[# O- Other @]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="219" width="90" height="11" uuid="63723e13-c362-4236-afaf-c94dc804efdf">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[# S- Second Hand @ ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="190" y="186" width="102" height="12" uuid="059bafb0-0981-401f-a2ad-7c8fcf1311dc">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="330" y="209" width="52" height="12" uuid="5685f7b7-8e13-40b2-9eb6-0a817df31021">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sub Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="358" y="198" width="24" height="12" forecolor="#751210" uuid="43aaf7d3-32e6-4d33-b670-bf7d4d59124b">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dep]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="192" y="221" width="100" height="12" forecolor="#101A78" uuid="12f8a116-2343-41d9-90d5-1dabf77ab325">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Add GST Amount]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="192" y="233" width="100" height="12" uuid="d1e73238-87a7-4f08-a2fa-8eef903b5e33">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total Assessed]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="292" y="186" width="59" height="12" uuid="a4ba691f-57cf-45fe-923f-53e7b3de046e">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_estimated}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="292" y="221" width="63" height="12" uuid="74c1512e-07e5-4da8-9a19-bd862549e9c9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_gst}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="292" y="233" width="63" height="12" uuid="1748966b-36cb-4e49-b047-e13d037a5ddc">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{total_estimated} == null ? java.math.BigDecimal.ZERO : $F{total_estimated}).add($F{total_gst} == null ? java.math.BigDecimal.ZERO : $F{total_gst})]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="60" y="186" width="60" height="11" uuid="458c5b9f-bc3b-4060-8450-ac7b922a611f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{metal_dep}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="90" y="219" width="30" height="11" uuid="f6abea53-f572-4cff-8568-19ec7515a436">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[25%]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="60" y="230" width="60" height="11" uuid="9d2d6d3b-84a3-48cb-99d8-18b278c2841e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[25%]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="382" y="185" width="68" height="12" uuid="82cd6191-784c-43f7-87f6-ee469fb90aab">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_allowed}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="382" y="209" width="68" height="12" uuid="e738a038-4d61-4639-ba2b-d0a1d1af652b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_ex_allowed}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="382" y="198" width="68" height="12" uuid="e0906be8-d3df-4d6d-bbd5-5fcef4bd5bdc">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_ex_dep}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="450" y="185" width="50" height="12" uuid="1df596c9-23a9-4ff0-8674-ecba47f09756">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{labour_estimated}]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement positionType="Float" x="0" y="279" width="554" height="50" uuid="5f62bc1a-c1ec-4dcd-9508-8d025d517749">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 2_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 2_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 2_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Dataset2" uuid="7634300f-822e-4cc2-a252-3dc00cb291d9">
+						<dataSourceExpression><![CDATA[$P{tableLabourDatasource}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="20" uuid="9162e603-f638-4584-b04a-ac2f583bf0d8">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table 2_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="20" height="30" uuid="638ed164-654e-4a0f-bdae-a37b7b6c2a42"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Est. Sr.]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="20">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="20" height="20" uuid="88c65222-2423-418f-b359-93545bcee041"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="170" uuid="33bb3e62-8838-401e-b363-1b7fe0567d5b">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table 2_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="170" height="30" uuid="b38f3cd3-d224-407c-a0bc-ce65a8c675eb"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Parts to Paint]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="20">
+							<property name="com.jaspersoft.studio.unit.height" value="px"/>
+							<textField>
+								<reportElement x="0" y="0" width="170" height="20" uuid="5fb456c8-794a-4c39-af52-e23864a1c7ac"/>
+								<textFieldExpression><![CDATA[" "+ $F{parts_name}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="1d21c4e5-80a2-4af1-aaa0-80fc5652b4b9">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table 2_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="faf0c037-5a58-41ae-896a-bfb3deb562fe"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Estimated]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="20">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="80" height="20" uuid="bdf16da9-be6d-415c-803c-3958eb784a41"/>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[$F{paint_estimate}+" "]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="30" uuid="b56c85c6-4b66-411c-9db1-bc7b83cfc8a7">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+						<jr:columnHeader style="Table 2_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="30" height="30" uuid="3d5402ec-0719-4a0e-be7a-14531a546d0f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[GST]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="30" height="20" uuid="0cfcfc0b-a93e-4005-b0d9-b9d7135dae1f"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{lab_gst}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="79" uuid="fe6dd5a6-c6bf-4229-b078-7bc24823df94">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+						<jr:columnHeader style="Table 2_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="79" height="30" uuid="b23f07c8-0ef1-4d95-a40c-e340f798632e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Allowed]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="20">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="79" height="20" uuid="63b0321b-182c-4268-8dba-0feee7f7cfdc"/>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[$F{allowed}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="81" uuid="7eebdd20-15d7-41d7-a297-e79f5c3beaeb">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+						<jr:columnHeader style="Table 2_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="81" height="30" uuid="5719e273-f914-4cac-870b-526fd61ffd81"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[25% Part (Mat)]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="81" height="20" uuid="d6d9a5bd-b0f8-49b8-8e26-0d7394978101"/>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[$F{paint25part}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="94" uuid="419bef5c-7114-4017-b432-d683ea755b25">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column7"/>
+						<jr:columnHeader style="Table 2_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="94" height="30" uuid="cf094bfd-9157-41cf-b29b-190f90dae063"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial Narrow" size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[75% Labour]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="94" height="20" uuid="fa397b07-cfd7-4980-86d7-5d238f1c5a8c"/>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[$F{paint75labour}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:detail>
+						<printWhenExpression><![CDATA[$F{paint_estimate} != null && $F{paint_estimate}.compareTo(java.math.BigDecimal.ZERO) != 0]]></printWhenExpression>
+					</jr:detail>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement positionType="Float" mode="Opaque" x="0" y="330" width="554" height="80" backcolor="#F0EDED" uuid="178d89dc-3763-4a12-bb6e-5a39d76e2565">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="90" y="346" width="100" height="12" uuid="676dddba-da15-42a0-a0c5-92d8d6fd7460">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Add GST]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="305" y="334" width="71" height="12" uuid="0c6a63b8-1d84-43e9-866f-0757d3ce2b62">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_allowed_paint}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="305" y="356" width="71" height="12" uuid="0a4d3c1e-1636-48da-9871-3a80f89b22ed">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{total_allowed_paint} == null ? java.math.BigDecimal.ZERO : $F{total_allowed_paint}).add($F{total_allowed_paint_gst} == null ? java.math.BigDecimal.ZERO : $F{total_allowed_paint_gst})]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="305" y="345" width="71" height="12" uuid="e12e17cc-2f26-4f96-b56c-905a7c4a4882">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_allowed_paint_gst}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="382" y="345" width="78" height="12" uuid="fba15fbf-d012-4c07-bddb-d1b27351befa">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_gst_paint25part}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="382" y="334" width="78" height="12" uuid="52927f8d-47a3-408e-953d-c5e38aa44ebe">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paint_material25actual_allowed}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="382" y="356" width="78" height="12" uuid="87d8fb73-1d67-4c8d-9f55-8f4ab4d02bc7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{paint_material25actual_allowed} == null ? java.math.BigDecimal.ZERO : $F{paint_material25actual_allowed}).add($F{total_gst_paint25part} == null ? java.math.BigDecimal.ZERO : $F{total_gst_paint25part})]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="468" y="345" width="82" height="12" uuid="a5d92260-7edc-46a9-9fe5-c1a9d35817c7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paint_labour75gst}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="468" y="334" width="82" height="12" uuid="e00cd790-395b-47ad-a3f7-6dbb8e5b72d2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paint_labour75actual_allowed}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="468" y="356" width="82" height="12" uuid="e0c760a9-5716-4c44-9d9d-b3cda6406cc3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{paint_labour75actual_allowed} == null ? java.math.BigDecimal.ZERO : $F{paint_labour75actual_allowed}).add($F{paint_labour75gst} == null ? java.math.BigDecimal.ZERO : $F{paint_labour75gst})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="154" y="389" width="223" height="12" uuid="c6c10348-e8a9-4ff5-949d-5bc34ea84bd6">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Paint Part (25%) Assessed]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="351" y="377" width="26" height="12" forecolor="#851614" uuid="31304c59-4b83-4e39-bb09-6994d2f583ae">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[50%]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="277" y="377" width="74" height="12" forecolor="#851614" uuid="51ff48a5-2b08-4ba8-9bed-7aebfffe2973">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Depriciation @]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="382" y="377" width="78" height="12" uuid="a94fbc17-a686-44b1-9d7c-72c8814e99f2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(($F{paint_material25actual_allowed} == null ? java.math.BigDecimal.ZERO : $F{paint_material25actual_allowed}).add($F{total_gst_paint25part} == null ? java.math.BigDecimal.ZERO : $F{total_gst_paint25part})).divide(new java.math.BigDecimal(2), 2, java.math.RoundingMode.HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="382" y="389" width="78" height="12" uuid="ec575ad7-1b8b-440c-bb93-ff773eb83647">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(($F{paint_material25actual_allowed} == null ? java.math.BigDecimal.ZERO : $F{paint_material25actual_allowed}).add($F{total_gst_paint25part} == null ? java.math.BigDecimal.ZERO : $F{total_gst_paint25part})).divide(new java.math.BigDecimal(2), 2, java.math.RoundingMode.HALF_UP)]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="501" y="185" width="50" height="12" uuid="b0a782f8-e234-4cb0-818b-1e9431cb8ed3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_allowed_labourt}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="209" y="356" width="63" height="12" uuid="d6c114aa-6b8b-40f6-a8ec-665f2eb8f5f1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{total_paint_estimate} == null ? java.math.BigDecimal.ZERO : $F{total_paint_estimate}).add($F{total_paint_estimate_gst} == null ? java.math.BigDecimal.ZERO : $F{total_paint_estimate_gst})]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="209" y="334" width="63" height="12" uuid="e9fd3d73-0dfe-465c-b7ee-c959fec5a943">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_paint_estimate}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="209" y="345" width="63" height="12" uuid="496a2cf9-2c1c-4cc8-9860-fd25b2107edb">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_paint_estimate_gst}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="91" width="180" height="14" uuid="16e2b26f-1d48-4529-81a5-532771d3fa9d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ASSESSMENT  OF LOSS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="76" width="68" height="14" uuid="0165e58e-fb74-480f-9ff4-06214903226b">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Policy Type:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="74" y="76" width="145" height="14" uuid="61758cf5-b702-45a8-baec-202f57f0e18f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="13" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nil_dep}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="50" width="68" height="14" uuid="f365db54-59dd-48dd-b579-d0747688d9c3">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Invoice No.:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="70" y="50" width="104" height="14" uuid="2a33770b-cdab-41af-ae54-b1e3955b59bf">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="11" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{invoice_number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="184" y="50" width="55" height="14" uuid="3fd88465-a738-4f3a-9cc1-341305b9e5d6">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Amount:]]></text>
+			</staticText>
+			<textField textAdjust="ScaleFont" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="239" y="50" width="70" height="14" uuid="aaab3264-708f-4d3a-be23-5634ae3def4d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="11" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{amount}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="309" y="50" width="40" height="14" uuid="04862291-af80-4fcf-8087-686fe25a8444">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dated:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="349" y="50" width="65" height="14" uuid="95a9ea35-312d-426f-af04-ad08f1874b63">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="11" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{issued_on} == null ? null : new java.text.SimpleDateFormat("dd-MM-yyyy").format($F{issued_on})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" mode="Opaque" x="414" y="50" width="73" height="14" forecolor="#FFFFFF" backcolor="#801412" uuid="8b4680b3-d365-4ce5-81b5-1178aa4cfb25">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Received On:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="489" y="50" width="65" height="14" uuid="499b170a-b6a2-46cf-a3b4-6044d0e995ad">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="11" isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{received_on} == null ? null : new java.text.SimpleDateFormat("dd-MM-yyyy").format($F{received_on})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" mode="Opaque" x="414" y="68" width="73" height="14" forecolor="#FFFFFF" backcolor="#801412" uuid="a7565de2-693a-47ed-8089-c2491b55ee08">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[IMT 23 :]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="490" y="68" width="65" height="14" uuid="f452b93f-b98c-4b64-b2ea-9f6e5f66a009">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="13" isBold="true" isItalic="true"/>
+				</textElement>
+			</textField>
+			<componentElement>
+				<reportElement positionType="Float" x="0" y="452" width="555" height="53" isRemoveLineWhenBlank="true" uuid="6f3937c5-dd29-4dfe-94cb-bab1fdcb156e">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 4_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 4_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 4_TD"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="IMTDataset" uuid="87963a99-d603-422e-9304-c2fdae42f7b6">
+						<dataSourceExpression><![CDATA[$P{tableImtDatasource}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="20" uuid="d6563f48-bcf0-4ca6-bf42-55c6cbc3e941">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="20" height="30" uuid="7907b9d3-3abc-4a0d-83f7-4bdca3ed68f3"/>
+								<textElement verticalAlignment="Middle"/>
+								<text><![CDATA[Sr.]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="20" height="20" uuid="98405978-3868-4b25-ae3f-d26d9afce66f"/>
+								<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="120" uuid="2b3de665-4267-4aad-a1e4-fc1ea7a51fad">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column2"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="120" height="30" uuid="158c3c78-2564-42e8-94e4-28f902d9a6b9"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[Parts Name]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="120" height="20" uuid="4d876f31-0e1a-4647-9a77-c925ee90dd31"/>
+								<textFieldExpression><![CDATA[$F{parts_name}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="30" uuid="34017a8a-47d6-4889-aa5d-c0872fb9af87">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="30" height="30" uuid="ff39048a-fd55-427f-ac3d-def8eb1376a9"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[Type]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="30" height="20" uuid="5063f6d2-341e-45bf-a932-e3b69b5db4d5"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{type}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="30" uuid="f3f61c3a-f2d5-4f61-909b-3acf125dc785">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column4"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="30" height="30" uuid="2b4a4c80-7ac3-40f2-915d-672335f2eb62"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[Bill No]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="30" height="20" uuid="c94bceb0-db19-48a0-bbe2-3313a0f7e763"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{bill_sr}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="b3b2b7bd-8d66-42ef-b00e-2645cbbb3f76">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column5"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="8aebec25-9871-4117-8bc5-97d9144f7c83"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[Remark]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="20" uuid="e5110b35-2c09-4f9a-a0e9-9a22f4687cba"/>
+								<textFieldExpression><![CDATA[$F{remarks}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="70" uuid="ba318d7f-0813-4e5e-ab22-56d1a5815c54">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column6"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="30" uuid="e2b76e04-afe2-47ce-b6ee-8616ba48ce49"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[Estimated]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="20" uuid="eb42946b-e986-48b5-a105-75fe70b26e34"/>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[$F{estimated}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="40" uuid="92258fb0-cb2c-4846-a31c-ec8de5d8c6b8">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column7"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="1e320e8a-5e6a-4794-8405-ce9c195c9112"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[GST]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="20" uuid="484e6eb3-b37f-41a7-aa24-d1519ea1171c"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{gst}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="55" uuid="01c20545-0203-4394-b016-6028746e6622">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column8"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="55" height="30" uuid="a5426458-c18c-43ec-857e-ee1d07b89d7b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[Allowed]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="55" height="20" uuid="476b45ff-2a96-4306-8e7d-cc06dd70256c"/>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[$F{allowed}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="55" uuid="aa63365c-cb14-4e5f-a8ad-39dfdf8221d4">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column9"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="55" height="30" uuid="72f02146-0ea9-497f-a380-c38e67f1ef83"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[Actual]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="55" height="20" uuid="2248a008-bc22-4b3a-8274-e53bdf600ac8"/>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[$F{ex_allowed}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="55" uuid="3b9c0f53-c092-4bb4-8c74-78b93401af99">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column10"/>
+						<jr:columnHeader style="Table 4_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="55" height="30" uuid="975b9f74-bb7a-448e-abbf-b2308da0663f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<text><![CDATA[Assessed]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 4_TD" height="20">
+							<textField>
+								<reportElement x="0" y="0" width="55" height="20" uuid="08bed10b-4de7-4acc-b413-8f582aeac853"/>
+								<textElement textAlignment="Right"/>
+								<textFieldExpression><![CDATA[$F{assessed}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="435" width="128" height="14" isRemoveLineWhenBlank="true" uuid="d9092d19-a637-42e2-8548-05fdfd21a65f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[IMT 23 Calclution : ]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" mode="Opaque" x="0" y="505" width="554" height="60" isRemoveLineWhenBlank="true" backcolor="#F0EDED" uuid="43bd52a5-196b-4f20-b78f-b438ebc24a1d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="309" y="520" width="190" height="12" isRemoveLineWhenBlank="true" uuid="e76dd7b0-63a4-47c5-afd3-cd911b274f6d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total Allowed Painting ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="309" y="542" width="190" height="13" isRemoveLineWhenBlank="true" forecolor="#851614" uuid="43a3b007-7862-42d8-87aa-bdb316af3247">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[IMT Deduction shall come @50%]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="500" y="542" width="54" height="13" isRemoveLineWhenBlank="true" uuid="badc89cd-1869-4918-b604-b8895739af78">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(
+    ($F{imt23Total} == null ? java.math.BigDecimal.ZERO : $F{imt23Total})
+    .add(
+        (($F{paint_material25actual_allowed} == null ? java.math.BigDecimal.ZERO : $F{paint_material25actual_allowed})
+            .add($F{total_gst_paint25part} == null ? java.math.BigDecimal.ZERO : $F{total_gst_paint25part}))
+            .divide(new java.math.BigDecimal(2), 2, java.math.RoundingMode.HALF_UP)
+    )
+    .add(
+        ($F{paint_labour75actual_allowed} == null ? java.math.BigDecimal.ZERO : $F{paint_labour75actual_allowed})
+            .add($F{paint_labour75gst} == null ? java.math.BigDecimal.ZERO : $F{paint_labour75gst})
+    )
+)
+.multiply(new java.math.BigDecimal("0.5"))]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="500" y="508" width="54" height="12" isRemoveLineWhenBlank="true" uuid="8971ba39-6992-408c-8249-6a4d1e4bc5cb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{imt23Total}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="500" y="520" width="54" height="11" isRemoveLineWhenBlank="true" uuid="bd23bb26-dea3-4962-84d8-359daed2a00c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(($F{paint_material25actual_allowed} == null ? java.math.BigDecimal.ZERO : $F{paint_material25actual_allowed}).add($F{total_gst_paint25part} == null ? java.math.BigDecimal.ZERO : $F{total_gst_paint25part})).divide(new java.math.BigDecimal(2), 2, java.math.RoundingMode.HALF_UP).add(($F{paint_labour75actual_allowed} == null ? java.math.BigDecimal.ZERO : $F{paint_labour75actual_allowed}).add($F{paint_labour75gst} == null ? java.math.BigDecimal.ZERO : $F{paint_labour75gst}))]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="381" y="572" width="105" height="12" uuid="123d6821-b28b-4135-8287-6e9d4dde044d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gross Allowed]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="491" y="572" width="63" height="12" uuid="2ac48e35-07dd-4aaf-85ae-c165660e7abb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{gross_loss_assesed_gross_allowed}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="491" y="584" width="63" height="12" uuid="72421c19-0488-4562-9b6a-8f430855fe0b">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{towing_charges_final}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="381" y="584" width="105" height="12" uuid="5eedaff5-e298-47ef-a52f-5e16e04e1aab">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Add: Towing Charges]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="491" y="596" width="63" height="12" uuid="22554f2c-1642-4bec-b4e2-9074593e81f1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{imt23deduction}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="381" y="596" width="105" height="12" uuid="eaccc92e-8a5b-47e0-a382-2c4681e019de">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Less: IMT-23 Deduction]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="491" y="632" width="63" height="12" uuid="98440589-13d1-40c6-b24c-9ccfb93ff123">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{average_clause}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="491" y="608" width="63" height="12" uuid="e41d1c52-1908-43d7-b553-2abc9b38ef62">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{salvage_charges}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="491" y="620" width="63" height="12" uuid="0e33ba17-d637-4799-880a-2719a4ac3d6a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sub_total}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="381" y="632" width="105" height="12" uuid="cacae6d9-b948-4733-aea2-d754bf9063ab">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Less: Average Clause (if any)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="381" y="620" width="105" height="12" uuid="5a0b4ba4-416a-4fdd-b270-2a574c605289">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sub-Total (after above)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="381" y="608" width="105" height="12" uuid="2dbc8360-3a82-42a9-8917-d0f82f3c88a2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Less: Salvage Charges]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="491" y="668" width="63" height="12" uuid="e804007b-cebd-4f88-a747-5411095f2563">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{net_loss_assessed}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="491" y="644" width="63" height="12" uuid="b1614e98-59a8-4601-a722-a37c729b5676">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{compulsory_excess}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="491" y="656" width="63" height="12" uuid="a6c45ddb-a838-404e-bf41-7a4b202a0e34">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{voluntary_imposed_excess}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="381" y="668" width="105" height="12" uuid="027a19a0-db65-46fb-8451-dbb2657db6a1">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NET LOSS ASSESSED]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="381" y="656" width="105" height="12" uuid="d8da7c0d-a5b0-4e92-89f0-816fb207440a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Less: Voluntary / Imposed Excess]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="381" y="644" width="105" height="12" uuid="8372a732-2662-473e-b548-4e5a6ea3c228">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Less: Compulsory Excess]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="382" y="221" width="68" height="12" uuid="75f7cd18-9b58-44b6-943e-10b3d3650949">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_ex_tax}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="382" y="233" width="68" height="12" uuid="47392078-3018-477d-8c38-90b5a49ef20d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{total_allowed} == null ? java.math.BigDecimal.ZERO : $F{total_allowed}).add($F{total_allowed} == null ? java.math.BigDecimal.ZERO : $F{total_allowed}).add($F{total_ex_allowed} == null ? java.math.BigDecimal.ZERO : $F{total_ex_allowed}).add($F{total_ex_tax} == null ? java.math.BigDecimal.ZERO : $F{total_ex_tax})]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="450" y="221" width="51" height="12" uuid="7e340b72-36e8-433f-8c21-40a0c2c3c6ee">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{labour_est_gst}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="450" y="233" width="51" height="12" uuid="b90a93e6-8ae7-456e-a5ee-8af71523bd52">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{labour_estimated} == null ? java.math.BigDecimal.ZERO : $F{labour_estimated}).add($F{labour_est_gst} == null ? java.math.BigDecimal.ZERO : $F{labour_est_gst})]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="501" y="221" width="49" height="12" uuid="9429dbb5-5830-409f-ae11-d321ebaa0fe2">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_labour_gstt}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="501" y="233" width="49" height="12" uuid="dd798c54-ed34-4c0d-860c-90d511686481">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{total_allowed_labourt} == null ? java.math.BigDecimal.ZERO : $F{total_allowed_labourt}).add($F{total_labour_gstt} == null ? java.math.BigDecimal.ZERO : $F{total_labour_gstt})]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="500" y="531" width="54" height="11" isRemoveLineWhenBlank="true" uuid="87d985f0-8a9f-420c-8ff2-ca6b03c5c3f9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{imt23Total} == null ? java.math.BigDecimal.ZERO : $F{imt23Total})
+.add(
+    (($F{paint_material25actual_allowed} == null ? java.math.BigDecimal.ZERO : $F{paint_material25actual_allowed})
+        .add($F{total_gst_paint25part} == null ? java.math.BigDecimal.ZERO : $F{total_gst_paint25part}))
+        .divide(new java.math.BigDecimal(2), 2, java.math.RoundingMode.HALF_UP)
+)
+.add(
+    ($F{paint_labour75actual_allowed} == null ? java.math.BigDecimal.ZERO : $F{paint_labour75actual_allowed})
+        .add($F{paint_labour75gst} == null ? java.math.BigDecimal.ZERO : $F{paint_labour75gst})
+)]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="393" y="420" width="54" height="12" isRemoveLineWhenBlank="true" uuid="c5eed5c3-7d7c-4b30-8b3e-4692f0470ad9">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{total_allowed} == null ? java.math.BigDecimal.ZERO : $F{total_allowed}).add($F{total_allowed} == null ? java.math.BigDecimal.ZERO : $F{total_allowed}).add($F{total_ex_allowed} == null ? java.math.BigDecimal.ZERO : $F{total_ex_allowed}).add($F{total_ex_tax} == null ? java.math.BigDecimal.ZERO : $F{total_ex_tax})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" x="365" y="420" width="28" height="12" isRemoveLineWhenBlank="true" uuid="95b4ccef-0c13-4703-86d0-3bd286cb5e23">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Parts]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="457" y="420" width="36" height="12" isRemoveLineWhenBlank="true" uuid="4784e08f-4132-409a-98d8-3b5df430c1f7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Labour]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="493" y="420" width="54" height="12" isRemoveLineWhenBlank="true" uuid="9f788bb0-16df-4e99-a135-f3b6cd1ecc69">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<printWhenExpression><![CDATA[$P{tableImtDatasource} != null 
+&& !((net.sf.jasperreports.engine.data.JRBeanCollectionDataSource)$P{tableImtDatasource}).getData().isEmpty()]]></printWhenExpression>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{paint_labour75actual_allowed} == null ? java.math.BigDecimal.ZERO : $F{paint_labour75actual_allowed}).add($F{paint_labour75gst} == null ? java.math.BigDecimal.ZERO : $F{paint_labour75gst})]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="213" splitType="Immediate">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<image>
+				<reportElement positionType="Float" x="0" y="110" width="140" height="48" uuid="4d3f7351-b4c1-4e1a-b597-6b552ebf9da7">
+					<printWhenExpression><![CDATA[$P{sign}!=null]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[$P{sign}]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement positionType="Float" x="0" y="195" width="530" height="13" uuid="4ba60b8a-c4ac-47e5-aca8-c231279a0a1a"/>
+				<box>
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" isBold="false"/>
+				</textElement>
+				<text><![CDATA[“Nyayarth Evam Sevarth”]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="180" width="530" height="13" uuid="2ec98b6b-7636-4a1b-ab1e-34d97d07981c">
+					<printWhenExpression><![CDATA[$F{full_name}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["For "+$F{full_name}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="164" width="530" height="13" uuid="9bbc9747-3f4b-49be-9b64-84ba7991a4ae"/>
+				<box>
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left">
+					<font fontName="Serif" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{surveyor}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement positionType="Float" x="3" y="7" width="551" height="93" uuid="ab57c641-124a-44e3-bccb-7eaeb52d37bb">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement positionType="Float" x="5" y="7" width="144" height="12" uuid="a0e9e8b6-97a8-47ff-bfe7-691a0301933f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[GST SUMMARY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="149" y="7" width="94" height="12" uuid="345aafe9-8906-4bc3-b089-2db84446f1be">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Allowed]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="243" y="7" width="90" height="12" uuid="6274d025-0040-490c-8d50-e15cea21422a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[GST]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="333" y="7" width="114" height="12" uuid="1dda13ee-0427-49c4-ad2d-711799ad3106">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Depriciation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="5" y="19" width="144" height="11" uuid="0674593f-ab3f-4461-beb6-7be71ce2891d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Parts with the GST (28%)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="5" y="30" width="144" height="11" uuid="231c2dfe-c4f0-40a6-a88b-56073ca81163">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Parts with the GST (18%)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="449" y="7" width="104" height="12" uuid="e5f8aa51-b461-4830-9995-c3735170b29b">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Serif" size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Assessed]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="5" y="41" width="144" height="11" uuid="f53adbb2-7f81-4a63-9a6e-43cd988a8cac">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Parts with the GST (00%)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="5" y="68" width="144" height="11" uuid="4434ac26-ddd9-4b37-869f-499878550fed">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Labour Portion Paint (75%)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="5" y="87" width="144" height="11" uuid="17341a2e-e944-436f-aabb-79e084dcad42">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Accidental Labour (18%)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" x="5" y="57" width="144" height="11" uuid="03edbc0f-d1a3-44d6-a4a8-fc97350c0117">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Paint Material as Part(25%)]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="149" y="19" width="94" height="11" uuid="de6e7cbc-a9d7-4af9-bd9d-a7b340f7a984">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_gst28percent}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="150" y="30" width="92" height="11" uuid="3f838716-6147-4e3d-9ca9-b19ae0dc220d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_gst18percent}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="149" y="57" width="94" height="11" uuid="9c1d7aea-0ddb-4b3b-9c09-e7b7a5baf1b5">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paint_material25actual_allowed}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="149" y="41" width="94" height="11" uuid="61cb7e73-d341-427f-a389-57c889cc7936">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_gst0percent}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="149" y="68" width="94" height="11" uuid="f8f28eec-86de-48ee-8ac2-e67c52a202e7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paint_labour75actual_allowed}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="149" y="87" width="94" height="11" uuid="2fca0ecc-75f0-40fd-8e57-cb2ae80909e8">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{accidental_labour_actual_allowed}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="243" y="87" width="90" height="11" uuid="e6c8c90f-5dfe-4d53-b78b-8c6f641d3ffe">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{accidental_labourgst}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="243" y="19" width="90" height="11" uuid="1ced7bea-e473-42d1-befb-fc09dea7623d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_tax28percent}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="243" y="41" width="90" height="11" uuid="4cfe8b5c-b44d-40bf-9a66-4cecd2a40d35">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_tax0percent}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="243" y="30" width="90" height="11" uuid="e6d5a2f4-569b-44c2-b008-298ba0bcb193">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_tax18percent}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="243" y="68" width="90" height="11" uuid="9ee659a3-4d25-46ae-9ba4-8439dbdc75ff">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paint_labour75gst}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="243" y="57" width="90" height="11" uuid="1df97150-dabd-4c02-836a-4bf5666c48e7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paint_material25gst}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="333" y="87" width="114" height="11" uuid="f217ede3-3274-4518-bbff-1d2b6656dc71">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{accidental_labour_depreciation}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="333" y="19" width="114" height="11" uuid="7b5ab493-ff78-4258-b876-25f109f547a7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_dep28percent}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="333" y="41" width="114" height="11" uuid="498b05d0-f638-4904-a1ab-492b3c8b9c49">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_dep0percent}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="333" y="30" width="114" height="11" uuid="074b1648-5a5d-4109-b5cc-493f24be2844">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total_dep18percent}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="333" y="68" width="114" height="11" uuid="b23e3ea8-83e3-48c2-9ba8-66a33407eb6c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paint_labour75depreciation}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="333" y="57" width="114" height="11" uuid="4df85d6a-a020-461a-9aec-bc19a3890269">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paint_material25depreciation}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="449" y="87" width="104" height="11" uuid="30ee7cdd-b019-4f40-ae59-d3ec514209ca">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{accidental_labour_assessed}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="449" y="19" width="104" height="11" uuid="7994848a-8ac9-4afb-8a3c-c9fb8a728efb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{total_gst28percent} == null ? java.math.BigDecimal.ZERO : $F{total_gst28percent})
+    .add($F{total_tax28percent} == null ? java.math.BigDecimal.ZERO : $F{total_tax28percent})]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="449" y="41" width="104" height="11" uuid="7a5860b6-4fdd-4437-981d-2edd41411acf">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{total_tax0percent} == null ? java.math.BigDecimal.ZERO : $F{total_tax0percent})
+    .add($F{total_gst0percent} == null ? java.math.BigDecimal.ZERO : $F{total_gst0percent})]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="449" y="30" width="104" height="11" uuid="44d43875-5310-48f6-bf41-c19af65e2754">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{total_gst18percent} == null ? java.math.BigDecimal.ZERO : $F{total_gst18percent})
+    .add($F{total_tax18percent} == null ? java.math.BigDecimal.ZERO : $F{total_tax18percent})]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="449" y="68" width="104" height="11" uuid="01511b44-f664-41c0-9719-d994daf9595d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paint_labour75assessed}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" x="449" y="57" width="104" height="11" uuid="0b685c78-3ae7-4f7b-8a0e-0cf15bee480b">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial Narrow" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{paint_material25assessed}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="13">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="554" height="13" backcolor="#F0EDED" uuid="c2ed8f6a-49d6-4c13-b84a-de5783886815">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Serif" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="496" y="1" width="50" height="11" uuid="5a9e54f5-7c7f-4578-96b2-a0d1bee5d9ec">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="-2">
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#F5F2F2"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font fontName="Serif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Page No.]]></text>
+			</staticText>
+			<textField evaluationTime="Page">
+				<reportElement x="548" y="1" width="6" height="12" uuid="89f7e999-43bc-4d4e-a305-b156dfc3d32c"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
